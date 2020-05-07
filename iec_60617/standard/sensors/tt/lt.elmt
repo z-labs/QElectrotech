@@ -1,0 +1,79 @@
+<definition orientation="dyyy" link_type="simple" width="230" type="element" hotspot_y="83" hotspot_x="85" version="0.80" height="90">
+    <uuid uuid="{8db0ab6f-de37-4fff-abda-11f07c93d179}"/>
+    <names>
+        <name lang="en">Level/Distance Transmitter, 4 Wire</name>
+    </names>
+    <elementInformations>
+        <elementInformation show="1" name="comment">0..250mm</elementInformation>
+        <elementInformation show="1" name="unity"></elementInformation>
+        <elementInformation show="1" name="plant"></elementInformation>
+        <elementInformation show="1" name="manufacturer">Manufacturer</elementInformation>
+        <elementInformation show="1" name="machine-manufacturer-reference"></elementInformation>
+        <elementInformation show="1" name="label">LT</elementInformation>
+        <elementInformation show="1" name="description">Level/Distance Transmitter, 4 Wire</elementInformation>
+        <elementInformation show="1" name="designation"></elementInformation>
+        <elementInformation show="1" name="manufacturer-reference">Part Number</elementInformation>
+        <elementInformation show="1" name="supplier"></elementInformation>
+        <elementInformation show="1" name="quantity"></elementInformation>
+    </elementInformations>
+    <informations></informations>
+    <description>
+        <rect style="line-style:normal;line-weight:normal;filling:white;color:black" rx="0" antialias="false" ry="0" width="220" x="-80" y="-80" height="80"/>
+        <line style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-20" antialias="false" x2="78" y2="-20" end1="none" length1="1.5" x1="72" length2="1.5" end2="none"/>
+        <circle style="line-style:normal;line-weight:normal;filling:white;color:black" antialias="false" diameter="4" x="118" y="-3"/>
+        <circle style="line-style:normal;line-weight:normal;filling:white;color:black" antialias="false" diameter="4" x="-62" y="-2"/>
+        <circle style="line-style:normal;line-weight:normal;filling:white;color:black" antialias="false" diameter="4" x="-2" y="-2"/>
+        <dynamic_text text_width="-1" rotation="0" Halignment="AlignRight" Valignment="AlignBottom" x="115" text_from="ElementInfo" font="Liberation Sans,9,-1,5,50,0,0,0,0,0" y="-100" uuid="{bf03eafc-04d3-4dbc-b4df-eb76bf041029}" z="9" frame="false">
+            <text>LT</text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <dynamic_text text_width="-1" rotation="0" Halignment="AlignRight" Valignment="AlignBottom" x="75.8" text_from="ElementInfo" font="Liberation Sans,9,-1,5,50,0,0,0,0,0" y="-80" uuid="{bf03eafc-04d3-4dbc-b4df-eb76bf041029}" z="9" frame="false">
+            <text>0..250mm</text>
+            <info_name>comment</info_name>
+        </dynamic_text>
+        <dynamic_text text_width="-1" rotation="0" Halignment="AlignLeft" Valignment="AlignBottom" x="-80" text_from="ElementInfo" font="Liberation Sans,9,-1,5,50,0,0,0,0,0" y="-65" uuid="{bf03eafc-04d3-4dbc-b4df-eb76bf041029}" z="10" frame="false">
+            <text>Part Number</text>
+            <info_name>manufacturer-reference</info_name>
+        </dynamic_text>
+        <dynamic_text text_width="-1" rotation="0" Halignment="AlignLeft" Valignment="AlignBottom" x="-80" text_from="ElementInfo" font="Liberation Sans,9,-1,5,50,0,0,0,0,0" y="-80" uuid="{bf03eafc-04d3-4dbc-b4df-eb76bf041029}" z="11" frame="false">
+            <text>Manufacturer</text>
+            <info_name>manufacturer</info_name>
+        </dynamic_text>
+        <circle style="line-style:normal;line-weight:normal;filling:white;color:black" antialias="false" diameter="4" x="58" y="-2"/>
+        <circle style="line-style:normal;line-weight:normal;filling:white;color:black" antialias="false" diameter="20" x="20" y="-40"/>
+        <line style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-30" antialias="false" x2="40" y2="-30" end1="none" length1="1.5" x1="20" length2="1.5" end2="none"/>
+        <dynamic_text text_width="-1" rotation="0" Halignment="AlignHCenter" Valignment="AlignBottom" x="110" text_from="UserText" font="Liberation Sans,9,-1,5,50,0,0,0,0,0" y="-21" uuid="{83f145a9-6e0c-4d37-a78b-c58ca916db12}" z="21" frame="false">
+            <text>L-</text>
+        </dynamic_text>
+        <dynamic_text text_width="-1" rotation="0" Halignment="AlignRight" Valignment="AlignBottom" x="37.0313" text_from="UserText" font="Liberation Sans,7,-1,5,50,0,0,0,0,0" y="0" uuid="{83f145a9-6e0c-4d37-a78b-c58ca916db12}" z="22" frame="false">
+            <text>WH</text>
+        </dynamic_text>
+        <dynamic_text text_width="-1" rotation="0" Halignment="AlignRight" Valignment="AlignBottom" x="-19.5156" text_from="UserText" font="Liberation Sans,7,-1,5,50,0,0,0,0,0" y="0" uuid="{83f145a9-6e0c-4d37-a78b-c58ca916db12}" z="22" frame="false">
+            <text>BK</text>
+        </dynamic_text>
+        <dynamic_text text_width="-1" rotation="0" Halignment="AlignRight" Valignment="AlignBottom" x="-80" text_from="UserText" font="Liberation Sans,7,-1,5,50,0,0,0,0,0" y="0" uuid="{83f145a9-6e0c-4d37-a78b-c58ca916db12}" z="22" frame="false">
+            <text>BN</text>
+        </dynamic_text>
+        <dynamic_text text_width="-1" rotation="0" Halignment="AlignHCenter" Valignment="AlignBottom" x="-70" text_from="UserText" font="Liberation Sans,9,-1,5,50,0,0,0,0,0" y="-21" uuid="{83f145a9-6e0c-4d37-a78b-c58ca916db12}" z="22" frame="false">
+            <text>L+</text>
+        </dynamic_text>
+        <dynamic_text text_width="-1" rotation="0" Halignment="AlignRight" Valignment="AlignBottom" x="97.4844" text_from="UserText" font="Liberation Sans,7,-1,5,50,0,0,0,0,0" y="0" uuid="{83f145a9-6e0c-4d37-a78b-c58ca916db12}" z="22" frame="false">
+            <text>BU</text>
+        </dynamic_text>
+        <polygon x3="28" style="line-style:normal;line-weight:normal;filling:black;color:black" y1="-30" antialias="false" x2="28" y2="-33" x1="33" y3="-27"/>
+        <polygon x3="60" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-2" antialias="false" x2="0" y2="-30" x4="60" y4="-2" x1="0" y3="-30" closed="false"/>
+        <line style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-10" antialias="false" x2="95" y2="-10" end1="none" length1="1.5" x1="72" length2="1.5" end2="none"/>
+        <line style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-30" antialias="false" x2="75" y2="-7" end1="none" length1="1.5" x1="75" length2="1.5" end2="none"/>
+        <line style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-13" antialias="false" x2="85" y2="-7" end1="none" length1="1.5" x1="85" length2="1.5" end2="none"/>
+        <line style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-13" antialias="false" x2="95" y2="-7" end1="none" length1="1.5" x1="95" length2="1.5" end2="none"/>
+        <line style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-30" antialias="false" x2="78" y2="-30" end1="none" length1="1.5" x1="72" length2="1.5" end2="none"/>
+        <line style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-15" antialias="false" x2="76" y2="-15" end1="none" length1="1.5" x1="74" length2="1.5" end2="none"/>
+        <line style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-25" antialias="false" x2="76" y2="-25" end1="none" length1="1.5" x1="74" length2="1.5" end2="none"/>
+        <line style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-9" antialias="false" x2="80" y2="-11" end1="none" length1="1.5" x1="80" length2="1.5" end2="none"/>
+        <line style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-9" antialias="false" x2="90" y2="-11" end1="none" length1="1.5" x1="90" length2="1.5" end2="none"/>
+        <terminal orientation="s" x="-60" y="2"/>
+        <terminal orientation="s" x="0" y="2"/>
+        <terminal orientation="s" x="60" y="2"/>
+        <terminal orientation="s" x="120" y="1"/>
+    </description>
+</definition>

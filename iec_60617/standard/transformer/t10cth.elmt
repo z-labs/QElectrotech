@@ -1,0 +1,41 @@
+<definition height="90" hotspot_x="4" hotspot_y="4" link_type="simple" orientation="dyyy" type="element" version="0.80" width="70">
+    <uuid uuid="{b7df0665-6a4c-4d97-a2a0-2fd72d4787ef}" />
+    <names>
+        <name lang="en">T10CTH - Transformer Centre Tap Secondary</name>
+    </names>
+    <elementInformations />
+    <informations />
+    <description>
+        <line antialias="false" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="60" x2="45" y1="40" y2="40" />
+        <arc angle="90" antialias="true" height="20" start="0" style="line-style:normal;line-weight:normal;filling:none;color:black" width="20" x="5" y="40" />
+        <arc angle="90" antialias="true" height="20" start="0" style="line-style:normal;line-weight:normal;filling:none;color:black" width="20" x="5" y="20" />
+        <dynamic_text Halignment="AlignHCenter" Valignment="AlignBottom" font="Liberation Mono,8,-1,5,50,0,0,0,0,0" frame="false" rotation="0" text_from="ElementInfo" text_width="-1" uuid="{bbb9cc18-0063-44fd-99ba-dcd1c34682a5}" x="26" y="-31.5" z="4">
+            <text />
+            <info_name>label</info_name>
+            <composite_text>%{label}</composite_text>
+        </dynamic_text>
+        <line antialias="false" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="60" x2="45" y1="80" y2="80" />
+        <arc angle="90" antialias="true" height="20" start="90" style="line-style:normal;line-weight:normal;filling:none;color:black" width="20" x="35" y="60" />
+        <line antialias="false" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="15" x2="0" y1="80" y2="80" />
+        <arc angle="90" antialias="true" height="20" start="0" style="line-style:normal;line-weight:normal;filling:none;color:black" width="20" x="5" y="0" />
+        <arc angle="90" antialias="true" height="20" start="90" style="line-style:normal;line-weight:normal;filling:none;color:black" width="20" x="35" y="20" />
+        <arc angle="90" antialias="true" height="20" start="180" style="line-style:normal;line-weight:normal;filling:none;color:black" width="20" x="35" y="20" />
+        <arc angle="90" antialias="true" height="20" start="270" style="line-style:normal;line-weight:normal;filling:none;color:black" width="20" x="5" y="0" />
+        <arc angle="90" antialias="true" height="20" start="270" style="line-style:normal;line-weight:normal;filling:none;color:black" width="20" x="5" y="20" />
+        <arc angle="90" antialias="true" height="20" start="0" style="line-style:normal;line-weight:normal;filling:none;color:black" width="20" x="5" y="60" />
+        <line antialias="false" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="60" x2="45" y1="0" y2="0" />
+        <arc angle="90" antialias="true" height="20" start="180" style="line-style:normal;line-weight:normal;filling:none;color:black" width="20" x="35" y="60" />
+        <arc angle="90" antialias="true" height="20" start="90" style="line-style:normal;line-weight:normal;filling:none;color:black" width="20" x="35" y="40" />
+        <arc angle="90" antialias="true" height="20" start="270" style="line-style:normal;line-weight:normal;filling:none;color:black" width="20" x="5" y="40" />
+        <arc angle="90" antialias="true" height="20" start="270" style="line-style:normal;line-weight:normal;filling:none;color:black" width="20" x="5" y="60" />
+        <arc angle="90" antialias="true" height="20" start="180" style="line-style:normal;line-weight:normal;filling:none;color:black" width="20" x="35" y="40" />
+        <line antialias="false" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="15" x2="0" y1="0" y2="0" />
+        <arc angle="90" antialias="true" height="20" start="90" style="line-style:normal;line-weight:normal;filling:none;color:black" width="20" x="35" y="0" />
+        <arc angle="90" antialias="true" height="20" start="180" style="line-style:normal;line-weight:normal;filling:none;color:black" width="20" x="35" y="0" />
+        <terminal orientation="w" x="0" y="0" />
+        <terminal orientation="w" x="0" y="80" />
+        <terminal orientation="e" x="60" y="80" />
+        <terminal orientation="e" x="60" y="40" />
+        <terminal orientation="e" x="60" y="0" />
+    </description>
+</definition>

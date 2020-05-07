@@ -1,0 +1,21 @@
+<definition height="70" hotspot_x="10" hotspot_y="34" link_type="simple" orientation="dyyy" type="element" version="0.80" width="20">
+    <uuid uuid="{e5418dde-f4b2-4a2e-8102-c9d4475b4bc2}" />
+    <names>
+        <name lang="en">FU10V - Terminal Fuse</name>
+    </names>
+    <elementInformations />
+    <informations />
+    <description>
+        <line antialias="false" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="0" x2="0" y1="30" y2="-30" />
+        <circle antialias="false" diameter="6" style="line-style:normal;line-weight:normal;filling:white;color:black" x="-3" y="15" />
+        <line antialias="false" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="2" x2="-2" y1="20" y2="16" />
+        <rect antialias="false" height="20" rx="0" ry="0" style="line-style:normal;line-weight:normal;filling:white;color:black" width="10" x="-5" y="-10" />
+        <dynamic_text Halignment="AlignLeft" Valignment="AlignBottom" font="Liberation Mono,8,-1,5,50,0,0,0,0,0" frame="false" rotation="0" text_from="ElementInfo" text_width="-1" uuid="{bbb9cc18-0063-44fd-99ba-dcd1c34682a5}" x="9" y="-13" z="4">
+            <text />
+            <info_name>label</info_name>
+            <composite_text>%{label}</composite_text>
+        </dynamic_text>
+        <terminal orientation="s" x="0" y="30" />
+        <terminal orientation="n" x="0" y="-30" />
+    </description>
+</definition>

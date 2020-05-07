@@ -1,0 +1,33 @@
+<definition height="30" hotspot_x="10" hotspot_y="14" link_type="terminal" orientation="dyyy" type="element" version="0.80" width="20">
+    <uuid uuid="{7bd75916-c9a2-40b9-b9a2-ed2534153269}" />
+    <names>
+        <name lang="en">Vertical</name>
+    </names>
+    <elementInformations>
+        <elementInformation name="manufacturer-reference" show="1" />
+        <elementInformation name="quantity" show="1" />
+        <elementInformation name="description" show="1" />
+        <elementInformation name="plant" show="1" />
+        <elementInformation name="comment" show="1" />
+        <elementInformation name="supplier" show="1" />
+        <elementInformation name="manufacturer" show="1" />
+        <elementInformation name="designation" show="1" />
+        <elementInformation name="unity" show="1" />
+        <elementInformation name="label" show="1" />
+        <elementInformation name="machine-manufacturer-reference" show="1" />
+    </elementInformations>
+    <informations />
+    <description>
+        <line antialias="true" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="-2.70253" x2="2.53479" y1="2.62798" y2="-2.36705" />
+        <circle antialias="false" diameter="8" style="line-style:normal;line-weight:normal;filling:none;color:black" x="-4" y="-4" />
+        <dynamic_text Halignment="AlignLeft" Valignment="AlignBottom" font="Liberation Mono,8,-1,5,50,0,0,0,0,0" frame="false" rotation="0" text_from="ElementInfo" text_width="-1" uuid="{bbb9cc18-0063-44fd-99ba-dcd1c34682a5}" x="8" y="-12" z="4">
+            <text />
+            <info_name>label</info_name>
+            <composite_text>%{label}</composite_text>
+        </dynamic_text>
+        <line antialias="false" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="0" x2="0" y1="10" y2="4" />
+        <line antialias="false" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="0" x2="0" y1="-4" y2="-10" />
+        <terminal orientation="s" x="0" y="10" />
+        <terminal orientation="n" x="0" y="-10" />
+    </description>
+</definition>

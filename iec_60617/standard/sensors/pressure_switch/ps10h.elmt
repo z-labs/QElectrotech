@@ -1,0 +1,22 @@
+<definition height="40" hotspot_x="34" hotspot_y="31" link_type="simple" orientation="dyyy" type="element" version="0.80" width="70">
+    <uuid uuid="{d9500f1c-ed62-444b-81aa-7b49baed3c70}" />
+    <names>
+        <name lang="en">PS10H - Pressure Switch Normally Open Contact</name>
+    </names>
+    <elementInformations />
+    <informations />
+    <description>
+        <line antialias="false" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="-10" x2="-30" y1="0" y2="0" />
+        <line antialias="false" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="10" x2="30" y1="0" y2="0" />
+        <line antialias="false" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="10" x2="-10" y1="0" y2="-10" />
+        <dynamic_text Halignment="AlignHCenter" Valignment="AlignBottom" font="Liberation Mono,8,-1,5,50,0,0,0,0,0" frame="false" rotation="0" text_from="ElementInfo" text_width="-1" uuid="{bbb9cc18-0063-44fd-99ba-dcd1c34682a5}" x="-4" y="-56.5" z="4">
+            <text />
+            <info_name>label</info_name>
+            <composite_text>%{label}</composite_text>
+        </dynamic_text>
+        <rect antialias="false" height="10" rx="0" ry="0" style="line-style:normal;line-weight:normal;filling:white;color:black" width="10" x="-5" y="-25" />
+        <line antialias="false" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="0" x2="0" y1="-5" y2="-15" />
+        <terminal orientation="w" x="-30" y="0" />
+        <terminal orientation="e" x="30" y="0" />
+    </description>
+</definition>

@@ -1,0 +1,22 @@
+<definition height="60" hotspot_x="24" hotspot_y="38" link_type="simple" orientation="dyyy" type="element" version="0.80" width="50">
+    <uuid uuid="{d9c832f3-a2d6-4643-adc5-5ae9768842c0}" />
+    <names>
+        <name lang="en">M10V - 1 Phase Motor</name>
+    </names>
+    <elementInformations />
+    <informations />
+    <description>
+        <line antialias="false" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="20" x2="20" y1="-30" y2="-10" />
+        <line antialias="false" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="0" x2="20" y1="10" y2="-10" />
+        <line antialias="false" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="-20" x2="-20" y1="-30" y2="-10" />
+        <line antialias="false" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="-20" x2="0" y1="-10" y2="10" />
+        <circle antialias="false" diameter="30" style="line-style:normal;line-weight:normal;filling:white;color:black" x="-15" y="-15" />
+        <dynamic_text Halignment="AlignLeft" Valignment="AlignBottom" font="Liberation Mono,8,-1,5,50,0,0,0,0,0" frame="false" rotation="0" text_from="CompositeText" text_width="-1" uuid="{f9b0afb3-b67b-4680-967e-212d22fc553d}" x="55" y="-10" z="7">
+            <text />
+            <composite_text>%{label}</composite_text>
+        </dynamic_text>
+        <text color="#000000" font="Sans,9,-1,5,50,0,0,0,0,0" rotation="0" text="1ph" x="-10" y="4" />
+        <terminal orientation="n" x="-20" y="-30" />
+        <terminal orientation="n" x="20" y="-30" />
+    </description>
+</definition>

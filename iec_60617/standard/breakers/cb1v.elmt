@@ -1,0 +1,34 @@
+<definition height="70" hotspot_x="22" hotspot_y="34" link_type="simple" orientation="dyyy" type="element" version="0.80" width="30">
+    <uuid uuid="{b23b36a8-33d1-4e38-b88e-dc6f92901405}" />
+    <names>
+        <name lang="en">CB10V - Circuit Breaker 1 Pole</name>
+    </names>
+    <elementInformations>
+        <elementInformation name="manufacturer-reference" show="1" />
+        <elementInformation name="quantity" show="1" />
+        <elementInformation name="plant" show="1" />
+        <elementInformation name="comment" show="1" />
+        <elementInformation name="description" show="1" />
+        <elementInformation name="manufacturer" show="1" />
+        <elementInformation name="supplier" show="1" />
+        <elementInformation name="designation" show="1" />
+        <elementInformation name="unity" show="1" />
+        <elementInformation name="label" show="1">Q</elementInformation>
+        <elementInformation name="machine-manufacturer-reference" show="1" />
+    </elementInformations>
+    <informations />
+    <description>
+        <line antialias="false" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="0" x2="0" y1="30" y2="10" />
+        <line antialias="false" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="0" x2="0" y1="-10" y2="-30" />
+        <line antialias="false" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="0" x2="-10" y1="10" y2="-10" />
+        <dynamic_text Halignment="AlignLeft" Valignment="AlignVCenter" font="Liberation Mono,8,-1,5,50,0,0,0,0,0" frame="false" rotation="0" text_from="ElementInfo" text_width="-1" uuid="{bbb9cc18-0063-44fd-99ba-dcd1c34682a5}" x="6" y="-18" z="4">
+            <text>Q</text>
+            <info_name>label</info_name>
+            <composite_text>%{label}</composite_text>
+        </dynamic_text>
+        <line antialias="false" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="-7" x2="-14" y1="-3" y2="1" />
+        <polygon antialias="false" style="line-style:normal;line-weight:normal;filling:black;color:black" x1="-16" x2="-14.1023" x3="-12.8169" y1="2" y2="-0.617981" y3="1.58203" />
+        <terminal orientation="s" x="0" y="30" />
+        <terminal orientation="n" x="0" y="-30" />
+    </description>
+</definition>

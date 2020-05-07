@@ -1,0 +1,26 @@
+<definition height="40" hotspot_x="34" hotspot_y="27" link_type="simple" orientation="dyyy" type="element" version="0.80" width="70">
+    <uuid uuid="{c8edb326-bff0-45ef-a3d9-02ba2d1faf95}" />
+    <names>
+        <name lang="en">PB20MHLTH - Mushroom Head Twist Latch Push Button Normally Closed</name>
+    </names>
+    <elementInformations />
+    <informations />
+    <description>
+        <polygon antialias="false" closed="false" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="0" x2="0" x3="-3" x4="0" x5="0" y1="5" y2="-9" y3="-11" y4="-13" y5="-20" />
+        <arc angle="179.938" antialias="true" height="8" start="0" style="line-style:normal;line-weight:normal;filling:none;color:black" width="12" x="-6" y="-24" />
+        <polygon antialias="false" closed="false" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="-3" x2="-3" x3="3" x4="3" y1="-14" y2="-16" y3="-16" y4="-18" />
+        <line antialias="false" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="-10" x2="-30" y1="0" y2="0" />
+        <dynamic_text Halignment="AlignHCenter" Valignment="AlignBottom" font="Liberation Mono,8,-1,5,50,0,0,0,0,0" frame="false" rotation="0" text_from="ElementInfo" text_width="-1" uuid="{bbb9cc18-0063-44fd-99ba-dcd1c34682a5}" x="-4" y="-51.5" z="4">
+            <text />
+            <info_name>label</info_name>
+            <composite_text>%{label}</composite_text>
+        </dynamic_text>
+        <line antialias="false" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="10" x2="30" y1="0" y2="0" />
+        <line antialias="false" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="10" x2="-10" y1="0" y2="10" />
+        <line antialias="false" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="-10" x2="-8" y1="0" y2="0" />
+        <line antialias="false" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="-8" x2="-8" y1="0" y2="10" />
+        <line antialias="false" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="-5" x2="5" y1="-20" y2="-20" />
+        <terminal orientation="e" x="30" y="0" />
+        <terminal orientation="w" x="-30" y="0" />
+    </description>
+</definition>

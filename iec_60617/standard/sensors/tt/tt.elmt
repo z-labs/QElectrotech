@@ -1,0 +1,46 @@
+<definition orientation="dyyy" link_type="simple" width="110" type="element" hotspot_y="83" hotspot_x="25" version="0.80" height="90">
+    <uuid uuid="{5ef7c6ff-6363-4299-b2a7-3bc127d1fc1f}"/>
+    <names>
+        <name lang="en">Temperature Transmitter</name>
+    </names>
+    <elementInformations>
+        <elementInformation show="1" name="comment">0 - 100°C</elementInformation>
+        <elementInformation show="1" name="unity"></elementInformation>
+        <elementInformation show="1" name="plant"></elementInformation>
+        <elementInformation show="1" name="manufacturer">Manufacturer</elementInformation>
+        <elementInformation show="1" name="machine-manufacturer-reference"></elementInformation>
+        <elementInformation show="1" name="label">TT</elementInformation>
+        <elementInformation show="1" name="description"></elementInformation>
+        <elementInformation show="1" name="designation"></elementInformation>
+        <elementInformation show="1" name="manufacturer-reference">Part Number</elementInformation>
+        <elementInformation show="1" name="supplier"></elementInformation>
+        <elementInformation show="1" name="quantity"></elementInformation>
+    </elementInformations>
+    <informations></informations>
+    <description>
+        <rect style="line-style:normal;line-weight:normal;filling:white;color:black" rx="0" antialias="false" ry="0" width="100" x="-20" y="-80" height="80"/>
+        <circle style="line-style:normal;line-weight:normal;filling:white;color:black" antialias="false" diameter="4" x="-2" y="-2"/>
+        <circle style="line-style:normal;line-weight:normal;filling:white;color:black" antialias="false" diameter="4" x="58" y="-2"/>
+        <circle style="line-style:normal;line-weight:normal;filling:white;color:black" antialias="false" diameter="20" x="20" y="-40"/>
+        <line style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-30" antialias="false" x2="40" y2="-30" end1="none" length1="1.5" x1="20" length2="1.5" end2="none"/>
+        <polygon x3="28" style="line-style:normal;line-weight:normal;filling:black;color:black" y1="-30" antialias="false" x2="28" y2="-33" x1="33" y3="-27"/>
+        <polygon x3="60" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-2" antialias="false" x2="0" y2="-30" x4="60" y4="-2" x1="0" y3="-30" closed="false"/>
+        <dynamic_text text_width="-1" rotation="0" Halignment="AlignLeft" Valignment="AlignBottom" x="-20" text_from="ElementInfo" font="Liberation Sans,9,-1,5,50,0,0,0,0,0" y="-80" uuid="{bf03eafc-04d3-4dbc-b4df-eb76bf041029}" z="8" frame="false">
+            <text>Manufacturer</text>
+            <info_name>manufacturer</info_name>
+        </dynamic_text>
+        <dynamic_text text_width="-1" rotation="0" Halignment="AlignRight" Valignment="AlignBottom" x="60" text_from="ElementInfo" font="Liberation Sans,9,-1,5,50,0,0,0,0,0" y="-100" uuid="{bf03eafc-04d3-4dbc-b4df-eb76bf041029}" z="8" frame="false">
+            <text>TT</text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <dynamic_text text_width="-1" rotation="0" Halignment="AlignLeft" Valignment="AlignTop" x="20" text_from="UserText" font="Liberation Sans,9,-1,5,50,0,0,0,0,0" y="-20" uuid="{bf03eafc-04d3-4dbc-b4df-eb76bf041029}" z="8" frame="false">
+            <text>°C</text>
+        </dynamic_text>
+        <dynamic_text text_width="-1" rotation="0" Halignment="AlignLeft" Valignment="AlignBottom" x="-20" text_from="ElementInfo" font="Liberation Sans,9,-1,5,50,0,0,0,0,0" y="-65" uuid="{bf03eafc-04d3-4dbc-b4df-eb76bf041029}" z="8" frame="false">
+            <text>Part Number</text>
+            <info_name>manufacturer-reference</info_name>
+        </dynamic_text>
+        <terminal orientation="s" x="60" y="2"/>
+        <terminal orientation="s" x="0" y="2"/>
+    </description>
+</definition>

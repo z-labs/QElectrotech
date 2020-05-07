@@ -1,0 +1,23 @@
+<definition height="20" hotspot_x="34" hotspot_y="6" link_type="simple" orientation="dyyy" type="element" version="0.80" width="70">
+    <uuid uuid="{31331649-e75a-47c0-93ee-c4c679851181}" />
+    <names>
+        <name lang="en">LS20H - Limit Switch Normally Closed</name>
+    </names>
+    <elementInformations />
+    <informations />
+    <description>
+        <line antialias="false" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="-10" x2="-30" y1="0" y2="0" />
+        <line antialias="false" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="10" x2="30" y1="0" y2="0" />
+        <line antialias="false" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="10" x2="-10" y1="0" y2="10" />
+        <line antialias="false" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="-10" x2="-8" y1="0" y2="0" />
+        <dynamic_text Halignment="AlignHCenter" Valignment="AlignBottom" font="Liberation Mono,8,-1,5,50,0,0,0,0,0" frame="false" rotation="0" text_from="ElementInfo" text_width="-1" uuid="{bbb9cc18-0063-44fd-99ba-dcd1c34682a5}" x="-4" y="-36.5" z="4">
+            <text />
+            <info_name>label</info_name>
+            <composite_text>%{label}</composite_text>
+        </dynamic_text>
+        <line antialias="false" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="-8" x2="-8" y1="0" y2="10" />
+        <polygon antialias="false" closed="false" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="0" x2="0" x3="5" y1="5" y2="10" y3="3" />
+        <terminal orientation="w" x="-30" y="0" />
+        <terminal orientation="e" x="30" y="0" />
+    </description>
+</definition>

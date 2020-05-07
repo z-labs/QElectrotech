@@ -1,0 +1,23 @@
+<definition height="80" hotspot_x="34" hotspot_y="25" link_type="simple" orientation="dyyy" type="element" version="0.80" width="70">
+    <uuid uuid="{eaf3d20c-a554-4dee-aeb3-33102eb00cc4}" />
+    <names>
+        <name lang="en">SV10H - Standard Solenoid Valve</name>
+    </names>
+    <elementInformations />
+    <informations />
+    <description>
+        <line antialias="false" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="-30" x2="30" y1="40" y2="40" />
+        <line antialias="false" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="-30" x2="30" y1="0" y2="0" />
+        <rect antialias="false" height="40" rx="0" ry="0" style="line-style:normal;line-weight:normal;filling:white;color:black" width="20" x="-10" y="-20" />
+        <dynamic_text Halignment="AlignHCenter" Valignment="AlignBottom" font="Liberation Mono,8,-1,5,50,0,0,0,0,0" frame="false" rotation="0" text_from="ElementInfo" text_width="-1" uuid="{bbb9cc18-0063-44fd-99ba-dcd1c34682a5}" x="-5" y="-50" z="4">
+            <text />
+            <info_name>label</info_name>
+            <composite_text>%{label}</composite_text>
+        </dynamic_text>
+        <polygon antialias="false" style="line-style:normal;line-weight:normal;filling:white;color:black" x1="-15" x2="-15" x3="15" x4="15" y1="30" y2="50" y3="30" y4="50" />
+        <line antialias="false" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:dashed;line-weight:normal;filling:none;color:black" x1="0" x2="0" y1="40" y2="20" />
+        <terminal orientation="e" x="30" y="0" />
+        <terminal orientation="w" x="-30" y="40" />
+        <terminal orientation="w" x="-30" y="0" />
+    </description>
+</definition>

@@ -1,0 +1,24 @@
+<definition height="70" hotspot_x="24" hotspot_y="34" link_type="simple" orientation="dyyy" type="element" version="0.80" width="30">
+    <uuid uuid="{622b5971-8805-485c-b3a2-1d127a257959}" />
+    <names>
+        <name lang="en">PB10V - Momentary Push Button Normally Open</name>
+    </names>
+    <elementInformations />
+    <informations />
+    <description>
+        <line antialias="true" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="0" x2="0" y1="30" y2="10" />
+        <line antialias="true" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="0" x2="0" y1="-10" y2="-30" />
+        <line antialias="true" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="0" x2="-10" y1="10" y2="-10" />
+        <dynamic_text Halignment="AlignLeft" Valignment="AlignBottom" font="Liberation Mono,8,-1,5,50,0,0,0,0,0" frame="false" rotation="0" text_from="ElementInfo" text_width="-1" uuid="{bbb9cc18-0063-44fd-99ba-dcd1c34682a5}" x="10" y="-20" z="4">
+            <text />
+            <info_name>label</info_name>
+            <composite_text>%{label}</composite_text>
+        </dynamic_text>
+        <line antialias="true" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="-20" x2="-5.20355" y1="0" y2="0" />
+        <line antialias="true" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="-20" x2="-20" y1="5" y2="-5" />
+        <line antialias="true" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="-18" x2="-20" y1="-5" y2="-5" />
+        <line antialias="true" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="-18" x2="-20" y1="5" y2="5" />
+        <terminal orientation="n" x="0" y="-30" />
+        <terminal orientation="s" x="0" y="30" />
+    </description>
+</definition>

@@ -1,0 +1,48 @@
+<definition height="130" width="130" orientation="dyyy" version="0.80" hotspot_y="9" link_type="master" hotspot_x="65" type="element">
+    <uuid uuid="{e8865bae-55fb-4374-b6e2-6c32b176725c}"/>
+    <names>
+        <name lang="en">Flow Transmitter, Pulse Output</name>
+    </names>
+    <kindInformations>
+        <kindInformation name="type" show="1">commutator</kindInformation>
+    </kindInformations>
+    <elementInformations>
+        <elementInformation name="description" show="1">250l/min</elementInformation>
+        <elementInformation name="supplier" show="1"></elementInformation>
+        <elementInformation name="designation" show="1"></elementInformation>
+        <elementInformation name="manufacturer-reference" show="1">PartNo</elementInformation>
+        <elementInformation name="label" show="1">FT</elementInformation>
+        <elementInformation name="quantity" show="1"></elementInformation>
+        <elementInformation name="machine-manufacturer-reference" show="1"></elementInformation>
+        <elementInformation name="plant" show="1"></elementInformation>
+        <elementInformation name="comment" show="1"></elementInformation>
+        <elementInformation name="manufacturer" show="1">Manufacturer</elementInformation>
+        <elementInformation name="unity" show="1"></elementInformation>
+    </elementInformations>
+    <informations></informations>
+    <description>
+        <rect height="110" ry="0" style="line-style:normal;line-weight:normal;filling:white;color:black" rx="0" x="-60" y="0" width="120" antialias="false"/>
+        <line length2="1.5" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black" x2="0" length1="1.5" x1="0" antialias="false" end2="none" y2="2" y1="108"/>
+        <circle style="line-style:normal;line-weight:normal;filling:white;color:black" x="-20" y="42" diameter="40" antialias="true"/>
+        <circle style="line-style:normal;line-weight:normal;filling:white;color:black" x="-2" y="-2" diameter="4" antialias="false"/>
+        <circle style="line-style:normal;line-weight:normal;filling:white;color:black" x="-2" y="108" diameter="4" antialias="false"/>
+        <dynamic_text frame="false" font="Liberation Sans,9,-1,5,50,0,0,0,0,0" Valignment="AlignBottom" x="60" y="0" Halignment="AlignRight" z="6" text_width="-1" rotation="0" uuid="{bf03eafc-04d3-4dbc-b4df-eb76bf041029}" text_from="ElementInfo">
+            <text>FT</text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <dynamic_text frame="false" font="Liberation Sans,9,-1,5,50,0,0,0,0,0" Valignment="AlignBottom" x="-60" y="15" Halignment="AlignLeft" z="8" text_width="-1" rotation="0" uuid="{bf03eafc-04d3-4dbc-b4df-eb76bf041029}" text_from="ElementInfo">
+            <text>PartNo</text>
+            <info_name>manufacturer-reference</info_name>
+        </dynamic_text>
+        <arc height="40" style="line-style:normal;line-weight:normal;filling:none;color:black" x="-47" y="42" width="40" start="312.5" antialias="true" angle="93.9375"/>
+        <arc height="40" style="line-style:normal;line-weight:normal;filling:none;color:black" x="7" y="42" width="40" start="133.25" antialias="true" angle="93.8125"/>
+        <dynamic_text frame="false" font="Liberation Sans,7,-1,5,50,0,0,0,0,0" Valignment="AlignBottom" x="-21" y="92" Halignment="AlignRight" z="11" text_width="-1" rotation="0" uuid="{440187ca-398d-4577-8eb1-a3678046af0c}" text_from="UserText">
+            <text>PN</text>
+        </dynamic_text>
+        <dynamic_text frame="false" font="Liberation Sans,7,-1,5,50,0,0,0,0,0" Valignment="AlignBottom" x="-21.4844" y="0" Halignment="AlignRight" z="11" text_width="-1" rotation="0" uuid="{440187ca-398d-4577-8eb1-a3678046af0c}" text_from="UserText">
+            <text>PN</text>
+        </dynamic_text>
+        <terminal x="0" y="112" orientation="s"/>
+        <terminal x="0" y="-2" orientation="n"/>
+    </description>
+</definition>

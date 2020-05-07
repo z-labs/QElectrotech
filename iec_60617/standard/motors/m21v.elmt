@@ -1,0 +1,32 @@
+<definition height="60" hotspot_x="24" hotspot_y="37" link_type="simple" orientation="dyyy" type="element" version="0.80" width="70">
+    <uuid uuid="{e376d79b-e828-442a-b958-34d9971f11fc}" />
+    <names>
+        <name lang="en">M21V - 3 Phase Motor With Earth</name>
+    </names>
+    <elementInformations />
+    <informations />
+    <description>
+        <line antialias="false" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="40" x2="40" y1="-30" y2="10" />
+        <line antialias="false" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="0" x2="0" y1="10" y2="-30" />
+        <line antialias="false" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="20" x2="20" y1="-30" y2="-10" />
+        <line antialias="false" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="0" x2="20" y1="10" y2="-10" />
+        <line antialias="false" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="-20" x2="-20" y1="-30" y2="-10" />
+        <line antialias="false" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="-20" x2="0" y1="-10" y2="10" />
+        <circle antialias="false" diameter="30" style="line-style:normal;line-weight:normal;filling:white;color:black" x="-15" y="-15" />
+        <text color="#000000" font="Sans,9,-1,5,50,0,0,0,0,0" rotation="0" text="3ph" x="-10" y="5" />
+        <line antialias="false" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="40" x2="15" y1="10" y2="10" />
+        <arc angle="43.0625" antialias="true" height="36" start="306.063" style="line-style:normal;line-weight:normal;filling:none;color:black" width="36" x="-18" y="-18" />
+        <dynamic_text Halignment="AlignHCenter" Valignment="AlignBottom" font="Liberation Mono,8,-1,5,50,0,0,0,0,0" frame="false" rotation="0" text_from="ElementInfo" text_width="-1" uuid="{4e135e82-3fdb-4b30-abff-3327b3e45ef6}" x="-4" y="28" z="12">
+            <text />
+            <info_name>label</info_name>
+        </dynamic_text>
+        <dynamic_text Halignment="AlignLeft" Valignment="AlignTop" font="Liberation Mono,8,-1,5,50,0,0,0,0,0" frame="false" rotation="0" text_from="ElementInfo" text_width="-1" uuid="{de87a091-d00d-41a2-bf9c-3a1f26d7c9b4}" x="-4" y="56" z="13">
+            <text />
+            <info_name>comment</info_name>
+        </dynamic_text>
+        <terminal orientation="n" x="20" y="-30" />
+        <terminal orientation="n" x="40" y="-30" />
+        <terminal orientation="n" x="0" y="-30" />
+        <terminal orientation="n" x="-20" y="-30" />
+    </description>
+</definition>
