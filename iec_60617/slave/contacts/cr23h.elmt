@@ -1,0 +1,49 @@
+<definition hotspot_y="14" orientation="dyyy" hotspot_x="4" type="element" version="0.80" height="60" link_type="slave" width="70">
+    <uuid uuid="{66501d99-e80d-4ebd-b6c2-7f11a631c583}"/>
+    <names>
+        <name lang="en">CR23H - Relay Normally Open Contact, 3 Way</name>
+    </names>
+    <kindInformations>
+        <kindInformation show="1" name="type">simple</kindInformation>
+        <kindInformation show="1" name="state">NO</kindInformation>
+        <kindInformation show="1" name="number">1</kindInformation>
+    </kindInformations>
+    <informations></informations>
+    <description>
+        <line end1="none" y1="0" x2="0" x1="20" end2="none" antialias="false" length2="1.5" y2="0" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <line end1="none" y1="20" x2="0" x1="20" end2="none" antialias="false" length2="1.5" y2="20" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <line end1="none" y1="40" x2="0" x1="20" end2="none" antialias="false" length2="1.5" y2="40" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <polygon x3="20" closed="false" y1="0" x2="40" x1="60" y3="-10" antialias="false" y2="0" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <dynamic_text Valignment="AlignBottom" text_from="ElementInfo" z="4" font="Liberation Mono,8,-1,5,50,0,0,0,0,0" Halignment="AlignHCenter" y="-55" rotation="0" x="25" frame="false" text_width="-1" uuid="{bbb9cc18-0063-44fd-99ba-dcd1c34682a5}">
+            <text></text>
+            <info_name>label</info_name>
+            <composite_text>%{label}</composite_text>
+        </dynamic_text>
+        <polygon x3="20" closed="false" y1="40" x2="40" x1="60" y3="30" antialias="false" y2="40" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <dynamic_text Valignment="AlignBottom" text_from="UserText" z="6" font="Liberation Sans,6,-1,5,50,0,0,0,0,0" Halignment="AlignLeft" y="-17" rotation="0" x="-1" frame="false" text_width="-1" uuid="{9d1f2c0b-8990-4cf0-a32d-9c58139a9586}">
+            <text>L1</text>
+        </dynamic_text>
+        <dynamic_text Valignment="AlignBottom" text_from="UserText" z="6" font="Liberation Sans,6,-1,5,50,0,0,0,0,0" Halignment="AlignRight" y="23" rotation="0" x="43.125" frame="false" text_width="-1" uuid="{9d1f2c0b-8990-4cf0-a32d-9c58139a9586}">
+            <text>T3</text>
+        </dynamic_text>
+        <dynamic_text Valignment="AlignBottom" text_from="UserText" z="6" font="Liberation Sans,6,-1,5,50,0,0,0,0,0" Halignment="AlignRight" y="3" rotation="0" x="43.125" frame="false" text_width="-1" uuid="{9d1f2c0b-8990-4cf0-a32d-9c58139a9586}">
+            <text>T2</text>
+        </dynamic_text>
+        <dynamic_text Valignment="AlignBottom" text_from="UserText" z="6" font="Liberation Sans,6,-1,5,50,0,0,0,0,0" Halignment="AlignRight" y="-17" rotation="0" x="43.125" frame="false" text_width="-1" uuid="{9d1f2c0b-8990-4cf0-a32d-9c58139a9586}">
+            <text>T1</text>
+        </dynamic_text>
+        <dynamic_text Valignment="AlignBottom" text_from="UserText" z="6" font="Liberation Sans,6,-1,5,50,0,0,0,0,0" Halignment="AlignLeft" y="3" rotation="0" x="-1" frame="false" text_width="-1" uuid="{9d1f2c0b-8990-4cf0-a32d-9c58139a9586}">
+            <text>L2</text>
+        </dynamic_text>
+        <dynamic_text Valignment="AlignBottom" text_from="UserText" z="6" font="Liberation Sans,6,-1,5,50,0,0,0,0,0" Halignment="AlignLeft" y="23" rotation="0" x="-1" frame="false" text_width="-1" uuid="{9d1f2c0b-8990-4cf0-a32d-9c58139a9586}">
+            <text>L3</text>
+        </dynamic_text>
+        <polygon x3="20" closed="false" y1="20" x2="40" x1="60" y3="10" antialias="false" y2="20" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <terminal orientation="e" y="0" x="60"/>
+        <terminal orientation="w" y="40" x="0"/>
+        <terminal orientation="w" y="0" x="0"/>
+        <terminal orientation="e" y="40" x="60"/>
+        <terminal orientation="w" y="20" x="0"/>
+        <terminal orientation="e" y="20" x="60"/>
+    </description>
+</definition>

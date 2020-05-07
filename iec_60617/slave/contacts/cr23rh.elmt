@@ -1,0 +1,28 @@
+<definition height="50" hotspot_x="24" hotspot_y="24" link_type="slave" orientation="dyyy" type="element" version="0.80" width="70">
+    <uuid uuid="{a1e4f3b8-5e9f-4efa-921d-24adc45b714e}" />
+    <names>
+        <name lang="en">CR31H - Change Over</name>
+    </names>
+    <kindInformations>
+        <kindInformation name="type" show="1">simple</kindInformation>
+        <kindInformation name="state" show="1">SW</kindInformation>
+        <kindInformation name="number" show="1">1</kindInformation>
+    </kindInformations>
+    <informations />
+    <description>
+        <line antialias="false" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="0" x2="0" y1="-8" y2="-20" />
+        <line antialias="false" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="0" x2="-20" y1="20" y2="20" />
+        <line antialias="false" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="0" x2="-20" y1="-20" y2="-20" />
+        <line antialias="false" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="0" x2="0" y1="20" y2="8" />
+        <line antialias="false" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="20" x2="40" y1="0" y2="0" />
+        <line antialias="false" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="20" x2="-1" y1="0" y2="-11" />
+        <dynamic_text Halignment="AlignHCenter" Valignment="AlignBottom" font="Liberation Mono,8,-1,5,50,0,0,0,0,0" frame="false" rotation="0" text_from="ElementInfo" text_width="-1" uuid="{0c976d1b-3d5c-462b-a883-c92531f610e7}" x="-4" y="-46" z="7">
+            <text />
+            <info_name>label</info_name>
+            <composite_text>%{label}</composite_text>
+        </dynamic_text>
+        <terminal orientation="e" x="40" y="0" />
+        <terminal orientation="w" x="-20" y="20" />
+        <terminal orientation="w" x="-20" y="-20" />
+    </description>
+</definition>

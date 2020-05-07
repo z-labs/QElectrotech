@@ -1,0 +1,25 @@
+<definition height="70" hotspot_x="15" hotspot_y="34" link_type="simple" orientation="dyyy" type="element" version="0.80" width="30">
+    <uuid uuid="{c51703a2-adbf-4418-be13-36ce13ee8404}" />
+    <names>
+        <name lang="en">Pilot Light</name>
+    </names>
+    <elementInformations />
+    <informations />
+    <description>
+        <line antialias="false" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="0" x2="0" y1="30" y2="-30" />
+        <circle antialias="false" diameter="20" style="line-style:normal;line-weight:normal;filling:white;color:black" x="-10" y="-10" />
+        <line antialias="false" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="-7" x2="7" y1="-7" y2="7" />
+        <line antialias="false" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="7" x2="-7" y1="-7" y2="7" />
+        <dynamic_text Halignment="AlignLeft" Valignment="AlignBottom" font="Liberation Mono,8,-1,5,50,0,0,0,0,0" frame="false" rotation="0" text_from="ElementInfo" text_width="-1" uuid="{eba8320b-cd23-48a9-b723-350c3a9eacf4}" x="20" y="-20" z="5">
+            <text />
+            <info_name>label</info_name>
+            <composite_text>%{label}</composite_text>
+        </dynamic_text>
+        <dynamic_text Halignment="AlignLeft" Valignment="AlignBottom" font="Liberation Mono,8,-1,5,50,0,0,0,0,0" frame="false" rotation="0" text_from="UserText" text_width="-1" uuid="{eba8320b-cd23-48a9-b723-350c3a9eacf4}" x="20" y="13" z="5">
+            <text>Color</text>
+            <composite_text>%{label}</composite_text>
+        </dynamic_text>
+        <terminal orientation="s" x="0" y="30" />
+        <terminal orientation="n" x="0" y="-30" />
+    </description>
+</definition>

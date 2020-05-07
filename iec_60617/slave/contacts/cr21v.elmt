@@ -1,0 +1,23 @@
+<definition height="70" hotspot_x="14" hotspot_y="34" link_type="slave" orientation="dyyy" type="element" version="0.80" width="20">
+    <uuid uuid="{532bc70e-d3e7-4767-a91a-15a5d7529ee7}" />
+    <names>
+        <name lang="en">CR11V - Relay Normally Open Contact</name>
+    </names>
+    <kindInformations>
+        <kindInformation name="type" show="1">simple</kindInformation>
+        <kindInformation name="state" show="1">NO</kindInformation>
+        <kindInformation name="number" show="1">1</kindInformation>
+    </kindInformations>
+    <informations />
+    <description>
+        <line antialias="false" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="0" x2="0" y1="30" y2="10" />
+        <line antialias="false" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="0" x2="0" y1="-10" y2="-30" />
+        <line antialias="false" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="0" x2="-10" y1="10" y2="-10" />
+        <dynamic_text Halignment="AlignLeft" Valignment="AlignBottom" font="Liberation Mono,8,-1,5,50,0,0,0,0,0" frame="false" rotation="0" text_from="ElementInfo" text_width="-1" uuid="{1ba14e17-c280-4aa9-96cd-2b96c9770913}" x="10" y="-10" z="4">
+            <text />
+            <info_name>label</info_name>
+        </dynamic_text>
+        <terminal orientation="n" x="0" y="-30" />
+        <terminal orientation="s" x="0" y="30" />
+    </description>
+</definition>

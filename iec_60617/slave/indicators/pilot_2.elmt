@@ -1,0 +1,44 @@
+<definition height="70" hotspot_x="35" hotspot_y="34" link_type="simple" orientation="dyyy" type="element" version="0.80" width="50">
+    <uuid uuid="{9015e889-30ed-4187-891f-de83869185df}" />
+    <names>
+        <name lang="en">LED Pilot Light</name>
+    </names>
+    <elementInformations>
+        <elementInformation name="manufacturer-reference" show="1" />
+        <elementInformation name="quantity" show="1" />
+        <elementInformation name="plant" show="1" />
+        <elementInformation name="comment" show="1" />
+        <elementInformation name="description" show="1" />
+        <elementInformation name="supplier" show="1" />
+        <elementInformation name="manufacturer" show="1" />
+        <elementInformation name="designation" show="1" />
+        <elementInformation name="unity" show="1" />
+        <elementInformation name="label" show="1" />
+        <elementInformation name="machine-manufacturer-reference" show="1" />
+    </elementInformations>
+    <informations />
+    <description>
+        <polygon antialias="false" closed="false" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="-25" x2="-27" x3="-25" x4="-27" y1="4" y2="6" y3="7" y4="9" />
+        <line antialias="false" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="0" x2="0" y1="30" y2="-30" />
+        <polygon antialias="false" closed="false" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="-26.1687" x2="-27.5365" x3="-26.8114" y1="8.76257" y2="9.63599" y3="8.20227" />
+        <circle antialias="false" diameter="20" style="line-style:normal;line-weight:normal;filling:white;color:black" x="-10" y="-10" />
+        <line antialias="false" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="-7" x2="7" y1="-7" y2="7" />
+        <dynamic_text Halignment="AlignLeft" Valignment="AlignBottom" font="Liberation Mono,8,-1,5,50,0,0,0,0,0" frame="false" rotation="0" text_from="ElementInfo" text_width="-1" uuid="{eba8320b-cd23-48a9-b723-350c3a9eacf4}" x="16" y="-12" z="5">
+            <text />
+            <info_name>label</info_name>
+            <composite_text>%{label}</composite_text>
+        </dynamic_text>
+        <dynamic_text Halignment="AlignLeft" Valignment="AlignBottom" font="Liberation Mono,8,-1,5,50,0,0,0,0,0" frame="false" rotation="0" text_from="UserText" text_width="-1" uuid="{eba8320b-cd23-48a9-b723-350c3a9eacf4}" x="16" y="10" z="5">
+            <text>Color</text>
+            <composite_text>%{label}</composite_text>
+        </dynamic_text>
+        <line antialias="false" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="7" x2="-7" y1="-7" y2="7" />
+        <line antialias="false" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="-20" x2="-20" y1="-10" y2="10" />
+        <polygon antialias="false" style="line-style:normal;line-weight:normal;filling:black;color:black" x1="-20" x2="-17" x3="-23" y1="3" y2="-3" y3="-3" />
+        <line antialias="false" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="-23" x2="-17" y1="3" y2="3" />
+        <polygon antialias="false" closed="false" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="-27" x2="-29" x3="-27" x4="-29" y1="-1" y2="1" y3="2" y4="4" />
+        <polygon antialias="false" closed="false" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="-28.1687" x2="-29.5365" x3="-28.8114" y1="3.76257" y2="4.63599" y3="3.20227" />
+        <terminal orientation="s" x="0" y="30" />
+        <terminal orientation="n" x="0" y="-30" />
+    </description>
+</definition>
