@@ -1,0 +1,32 @@
+<definition height="70" hotspot_x="25" hotspot_y="34" link_type="master" orientation="dyyy" type="element" version="0.80" width="40">
+    <uuid uuid="{ae5cb203-04d9-46ee-8347-7dbcfdad4911}" />
+    <names>
+        <name lang="en">PB20V - Momentary Push Button Normally Closed</name>
+    </names>
+    <kindInformations>
+        <kindInformation name="type" show="1">commutator</kindInformation>
+    </kindInformations>
+    <elementInformations />
+    <informations />
+    <description>
+        <line antialias="true" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="0" x2="0" y1="30" y2="10" />
+        <line antialias="true" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="-20" x2="-20" y1="5" y2="-5" />
+        <line antialias="true" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="0" x2="0" y1="-10" y2="-30" />
+        <line antialias="true" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="-18" x2="-20" y1="-5" y2="-5" />
+        <line antialias="true" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="0" x2="10" y1="10" y2="-10" />
+        <line antialias="true" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="-18" x2="-20" y1="5" y2="5" />
+        <line antialias="true" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="0" x2="0" y1="-10" y2="-8" />
+        <line antialias="true" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="0" x2="10" y1="-8" y2="-8" />
+        <dynamic_text Halignment="AlignRight" Valignment="AlignBottom" font="Liberation Mono,8,-1,5,50,0,0,0,0,0" frame="false" rotation="0" text_from="ElementInfo" text_width="-1" uuid="{3fa7e268-bc7b-4177-8a5f-f8b313567d1c}" x="-34" y="-29" z="9">
+            <text />
+            <info_name>label</info_name>
+        </dynamic_text>
+        <dynamic_text Halignment="AlignRight" Valignment="AlignBottom" font="Liberation Mono,8,-1,5,50,0,0,0,0,0" frame="false" rotation="0" text_from="ElementInfo" text_width="-1" uuid="{3fa7e268-bc7b-4177-8a5f-f8b313567d1c}" x="-34" y="6" z="9">
+            <text />
+            <info_name>comment</info_name>
+        </dynamic_text>
+        <line antialias="true" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="-20" x2="4.81122" y1="0" y2="-0.020649" />
+        <terminal orientation="n" x="0" y="-30" />
+        <terminal orientation="s" x="0" y="30" />
+    </description>
+</definition>
